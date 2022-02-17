@@ -26,34 +26,7 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="Support​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton(text="Updates", url=f"https://t.me/{CHANNEL}"),
-        ],
-        [
-            InlineKeyboardButton("Command", url="https://telegra.ph/Skyzo-11-10"),
-        ],
-    ]
-    return (
-        "🎛 **{BOT_NAME} Is a bot that can play a song or video from the voice chats**",
-        buttons,
-    )
 
-
-pstart_markup = InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton(
-                "Add Me To Your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-        ],
-        [
-            InlineKeyboardButton("Support", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton("Updates", url=f"https://t.me/{CHANNEL}"),
-        ],
-        [
-            InlineKeyboardButton("Cd Music", url="https://telegra.ph/Skyzo-11-10"),
-            InlineKeyboardButton("Cd Dev", url="https://telegra.ph/壊Skyzo-01-21"),
-            InlineKeyboardButton("Cd Stream", url="https://telegra.ph/sᴋʏᴢᴏ-ᴇx-12-21"),
-        ],
     ]
 )
 welcome_captcha_group = 2
